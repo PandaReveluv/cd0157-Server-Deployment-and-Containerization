@@ -86,3 +86,19 @@ Completing the project involves several steps:
 6. Create a CodeBuild stage which will build, test, and deploy your code
 
 For more detail about each of these steps, see the project lesson.
+
+## Run locally
+Set the environment variables
+```bash
+$ export JWT_SECRET='my_secret'
+$ export LOG_LEVEL=DEBUG
+```
+or create .env_file with content:
+```
+JWT_SECRET=my_secret
+LOG_LEVEL=DEBUG
+```
+Run the API:
+```bash
+python main.py
+```
