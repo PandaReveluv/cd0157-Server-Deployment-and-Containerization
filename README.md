@@ -93,7 +93,7 @@ Set the environment variables
 $ export JWT_SECRET='my_secret'
 $ export LOG_LEVEL=DEBUG
 ```
-or create .env_file with content:
+or create `.env_file` in root project folder with content:
 ```
 JWT_SECRET=my_secret
 LOG_LEVEL=DEBUG
